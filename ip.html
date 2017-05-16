@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+</head>
+<body>
+<div id="city"></div>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script>
+	var city = document.getElementById("city");
+	city.innerHTML = "您在" + returnCitySN.cname;
+	// if(returnCitySN.cname=="广东省深圳市"){
+	// 	city.innerHTML = returnCitySN.cname;
+	// }
+	// else if(returnCitySN.cname=="广东省梅州市"){
+	// 	city.innerHTML = returnCitySN.cname;
+	// }
+	// else if(returnCitySN.cname=="广东省广州市"){
+	// 	city.innerHTML = returnCitySN.cname;
+	// }
+</script>
+</body>
+</html>

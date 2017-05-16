@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('广东省') == -1) ){
+			window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.100.jeTfHl&id=541542334499&skuId=3415315527274&areaId=440300&standard=1&user_id=1090137190&cat_id=2&is_b=1&rn=915d0246b7845994550fa3d381a9fa53';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://m.hzj.pcyy.cn/special/weibo.html';
+			}else {
+			    window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.100.jeTfHl&id=541542334499&skuId=3415315527274&areaId=440300&standard=1&user_id=1090137190&cat_id=2&is_b=1&rn=915d0246b7845994550fa3d381a9fa53';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

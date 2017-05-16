@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14234872766.150.jF6yEh&id=39981905194&rn=a453f61fca6dbd01c22d4c8604bd9ddc&abbucket=15';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://www.toutiaopage.com/tetris/page/52202431965/?from=singlemessage&isappinstalled=0';
+			}else {
+			    window.location.href = 'https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14234872766.150.jF6yEh&id=39981905194&rn=a453f61fca6dbd01c22d4c8604bd9ddc&abbucket=15';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

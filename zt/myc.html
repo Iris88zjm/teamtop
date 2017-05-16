@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.13.IOazwv&id=23237224348&skuId=3281422305310&areaId=440300&standard=1&user_id=747872819&cat_id=2&is_b=1&rn=6cbd4be0d9f40b6c4ed318b80a2b084d';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://m.66689999.com/zhuanti/new51/';
+			}else {
+			    window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.13.IOazwv&id=23237224348&skuId=3281422305310&areaId=440300&standard=1&user_id=747872819&cat_id=2&is_b=1&rn=6cbd4be0d9f40b6c4ed318b80a2b084d';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

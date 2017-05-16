@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body { font-family: "Microsoft YaHei",sans-serif }
+
+@media all and (max-width: 480px){
+  img { width: 100%; display: block; }
+}
+h1 { font-size: 24px; font-weight: lighter; line-height: 30px; margin-bottom: 10px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; color: rgb(171, 25, 66); }
+
+p { padding: 5px 0; line-height: 22px; }
+ul li { list-style: none; }
+.container {
+	margin: 0 auto;
+	max-width: 750px;
+}
+a:hover, a:link, a:visited, a:active {
+	color: #666;
+	text-decoration: none;
+}
+.clear { content: ''; display: table; clear: both; }
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+.swrap { padding: 10px; }
+.img { text-align: center; }
+.brown { color: rgb(128, 0, 0); font-weight: bolder; }
+.yellow { background: yellow; color: rgb(128, 0, 0); font-weight: bolder; }
+.red { color: rgb(192, 0, 0); }
+
+.info .time { color: #8c8c8c; }
+.info .name { color: #8c8c8c; }
+.info .help { color: #607fa6; }
+.content p { padding: 10px 0; line-height: 24px; text-indent: 32px; }
+.content h2 { margin-bottom: 10px; color: rgb(217, 33, 66); }
+.banner { margin: 30px 0; background: rgb(21, 9, 9); border-radius: 50px;position: relative;}
+.banner .title {position: absolute;left: 0;top: -12px;padding: 32px 28px;border: 3px rgb(21, 9, 9) solid;border-radius: 50%; background: #fff; }
+.banner .text {display: inline-block; margin-left: 120px; }
+.banner .text strong { color: rgb(255, 202, 0); }
+.banner .text .num { color: red; font-weight: bolder; }
+.banner .text p { line-height: 24px; }
+
+.tip-border { margin: 10px 0; padding: 5px; background: black; color: rgb(231, 255, 31); text-align: center; font-size: 24px; }
+.tip-border .tip { padding: 5px 10px; border: 2px #fff solid; }
+
+.banner1 { position: relative; margin-bottom: 40px; }
+.banner1 .entry { text-align: center; font-size: 14px; padding-bottom: 10px; }
+.banner1 .name { display: inline-block; position: absolute; bottom: -30px; left: 20%; padding: 20px; background: #fff; font-size: 26px; }
+.banner1 .name span { padding-left: 10px; font-size: 14px; }
+
+.banner2 { text-align: center; font-size: 14px; }
+.banner2 .name { font-weight: bolder; }
+.banner2 .name span:nth-child(1) { border-bottom: 1px rgb(21, 9, 9) solid; padding-bottom: 2px; }
+.banner2 .name span:nth-child(2) { display: block; padding-top: 10px; color: rgb(255, 129, 36); }
+.banner2 .text { margin-top: 10px; border: 1px rgb(204, 204, 204) solid; box-shadow: rgb(204, 204, 204) 0px 0px 8px; padding: 20px; text-align: left; color: #333; }
+.banner3 { border: 1px solid rgb(192, 200, 209);  box-shadow: rgb(170, 170, 170) 0px 0px 10px; background: rgb(250, 250, 239); padding: 10px; }
+.banner3 .title { margin: 0 auto; width: 160px; padding: 0 10px; background: black; color: #fff; }
+.banner4 .title { display: inline-block; padding: 5px 10px; border-radius: 7px; background: rgb(128, 0, 0); color: #fff; box-shadow: rgb(165, 165, 165) 0.2em 0.2em 0.1em; }
+.banner4 .text { margin: 10px 0; padding: 10px; background: rgb(250, 250, 239); box-shadow: rgb(170, 170, 170) 0px 0px 10px;  }
+
+.letter { font-size: 14px; font-weight: bolder; padding-bottom: 20px; }
+.letter p { padding: 0; }
+.banner5 .border-top { max-width: 100%;box-sizing: border-box;width: 556px;height: 15px;border-width: 3px 3px 0px;border-style: solid;border-color: rgb(197, 63, 70);word-wrap: break-word !important; }
+.banner5 .border-tottom { max-width: 100%; box-sizing: border-box; width: 556px; height: 15px; border-width: 0px 3px 3px; border-style: solid; border-color: rgb(197, 63, 70); word-wrap: break-word !important; }
+.banner5 .top, .banner5 .bottom { color: rgb(192, 0, 0); font-weight: bolder; font-size: 18px; }
+
+.banner6 { box-shadow: rgb(170, 170, 170) 0px 0px 3px; border: 2px solid rgb(240, 240, 240); padding: 10px; margin: 15px 0; }
+.banner6 .title { color: rgb(192, 0, 0); text-align: center; font-weight: bolder; }
+.menu { position: fixed; left: 0; bottom: 0; width: 100%; background: #f3f2f2; }
+.menu .img { width: 25%; padding-left: 5%; }
+.menu .img img { width: 45px; }
+.menu .num { width: 40%; text-align: center; background: #398F5E; padding: 15px 0; color: #fff; font-size: 18px; }
+.menu .text { width: 25%; font-size: 12px; padding-left: 5%; padding-top: 10px; }
+.pic.img { padding-bottom: 40px; }
