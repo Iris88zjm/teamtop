@@ -1,0 +1,50 @@
+* { margin: 0; padding: 0; }
+
+p { padding: 5px 0; line-height: 22px; }
+ul li { list-style: none; }
+.container {
+	margin: 0 auto;
+	max-width: 750px;
+}
+a:hover, a:link, a:visited, a:active {
+	color: #666;
+	text-decoration: none;
+}
+h1 { font-size: 24px;  line-height: 30px; margin-bottom: 10px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+.red { color: red }
+.yellow { background: yellow; }
+.clear { content: ''; display: table; clear: both; }
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+.swrap { padding: 10px; }
+.img { text-align: center; }
+.img img { max-width: 750px; margin: 0 auto; }
+
+.info { font-size: 12px; }
+.info .img { text-align: left; display: inline-block; padding-right: 10px; }
+.info .img img { border-radius: 50%; width: 35px; }
+.info .entry { display: inline-block;  }
+.info .entry img { border-radius: 5px; display: inline-block; }
+.info .entry .name { display: inline-block; }
+.info .tip { border: 1px #ddd solid; border-radius: 5px; width: 28px; }
+
+.title { background: #0553F8; text-align: center; padding: 20px 0; color: #fff; font-size: 32px; }
+.comment { padding: 20px 0 48px; }
+.comment li { border-top: 1px #ddd solid; padding: 10px 0; }
+.comment .top { width: 100%; font-size: 14px; }
+.comment .top .name { color: #607fa6; }
+.comment .top .floor { color: #999; }
+.comment .middle { padding: 10px 0; }
+
+.comment .bottom { width: 100%; font-size: 14px; }
+.comment .bottom .time { color: #999; }
+.comment .bottom .reply a { color: #3360a6; }
+.comment .quote { margin-top: 5px; background: #eee; border: 1px #ddd solid; padding: 5px; font-size: 14px; border-radius: 5px; }
+.comment .quote .top { color: #666; padding-bottom: 3px; }
+.menu { position: fixed; width: 100%; left: 0; bottom: 0; background: #0553F8; text-align: center; color: #fff; font-size: 20px; font-weight: bolder; }
+.menu .text { padding: 8px 0; }
+.menu .text .add { display: inline-block; padding: 3px 5px; background: yellow; border-radius: 4px;  }
+.menu .text .add a { color: red; }

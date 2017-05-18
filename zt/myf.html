@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京') >= 0) || (city.indexOf('天津') >= 0) || (city.indexOf('上海') >= 0) || (city.indexOf('武汉') >= 0) ){
+			window.location.href = 'https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14234872766.332.vs6V2M&id=540219887479&rn=a75e6e4e3a3019fd1ba8ab7de3508237';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'http://top.huashunglass.com/zt/pro/index.html';
+			}else {
+			    window.location.href = 'https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14234872766.332.vs6V2M&id=540219887479&rn=a75e6e4e3a3019fd1ba8ab7de3508237';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>
