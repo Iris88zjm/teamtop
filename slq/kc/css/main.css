@@ -1,0 +1,56 @@
+* { padding: 0; margin: 0; }
+.container { margin: 0 auto; max-width: 750px; border: 1px solid #e7e7eb; padding: 0 10px;  }
+body { font-family: Arial; color: #3e3e3e; }
+ul li { list-style: none; }
+p { padding: 10px 0;  }
+.img img { width: 100%; display: block; max-width: 500px; margin: 0 auto; }
+a:hover, a:link, a:visited, a:active { text-decoration: none; color: #fff; }
+
+.clear { content: ''; display: table; clear: both; }
+.entry { width: 100%; color: #999; }
+.left { float: left; }
+.right { float: right; }
+
+.yellow { color: yellow }
+.blue { color: #607fa6; }
+.red { color: red; }
+.num { background: yellow; color: red; font-weight: bolder; }
+
+.bg { background: #c0504d; }
+.brown { color: #c0504d; }
+.white { color: #fff; }
+
+.text { margin: 5px 0; }
+.text p { line-height: 26px; }
+
+.top .title { border-bottom: 1px solid #e7e7eb; font-size: 20px; padding: 10px; font-weight: bolder; }
+.top .time { padding: 15px 0; font-size: 12px; }
+.banner { background: #479ee9; color: #fff; padding: 20px; margin-bottom: 20px; }
+
+.read { padding: 20px 0; }
+.read img { width: 30px; display: inline; }
+.read span { padding-right: 10px; color: #CCC; }
+
+.comment { background: #F6F6F6; padding: 20px; margin-bottom: 50px; }
+.comment .img img { width: 50px; display: inline; }
+.comment .right .img img { width: 30px; }
+.line-title { height: 40px; text-align: center; }
+.comment .title { display: inline-block; padding: 0 10px; background: #F6F6F6;  }
+.comment .line { border-top: 1px #000 solid; margin-top: -10px; }
+.comment .content { padding: 10px 0 10px 60px; }
+.comment .content .date { padding-top: 5px; color: #999; }
+.comment .reply { border-top: 1px #000 solid; padding: 10px 0; margin-left: 60px; }
+.comment .reply .author { padding-left: 10px; border-left: 3px #3FB837 solid;  margin-bottom: 5px; color: #999; }
+
+
+.menu { position: fixed; left: 0; bottom: 0; width: 100%; background: #fcfcfc; border: 1px #eee solid; }
+.menu .img img { width: 50px; display: inline; }
+.menu li:nth-child(1) { float: left; width: 70%; }
+.menu li:nth-child(2) { float: right; }
+.menu li:nth-child(1) .tip { width: 75%; }
+.wachat { line-height: 50px; box-shadow: 0 1px 3px 0 #000; margin-right: 10px; background: #3FB837; border-radius: 10px; padding: 5px 10px; }
+
+@media all and (max-width: 480px) {
+	.menu li:nth-child(1) .tip { font-size: 12px; }
+	.menu .num { font-size: 14px; }
+}

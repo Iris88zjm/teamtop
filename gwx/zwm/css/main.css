@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body { color: #4c4c4c; }
+img { width: 100%; display: block; }
+h1 { font-size: 30px; }
+h2 { font-size: 16px; line-height: 24px; }
+p { padding: 5px 0; line-height: 20px; font-size: 15px; }
+ul li { list-style: none; }
+.container {
+	margin: 0 auto;
+	max-width: 750px;
+}
+a:hover, a:link, a:visited, a:active {
+	color: #666;
+	text-decoration: none;
+}
+.clear { content: ''; display: table; clear: both; }
+.left { float: left; }
+.right { float: right; }
+.gray { color: #9C9C9C; }
+.blue { color: #0086CE; }
+.red { color: red; }
+
+.top { background: #ebebeb; width: 100%; }
+.top .logo { width: 40%; padding-left: 5%; }
+.top .user { line-height: 35px; padding: 10px 10px 0 0; }
+.top .user a { color: #fff; }
+.top .user img { display: inline; line-height: 45px; width: 30px; }
+.wrap { padding: 0 10px; }
+.bread { padding: 10px 0; font-size: 12px; }
+.title { padding: 5px 0; }
+
+.logo img { max-width: 200px; }
+
+.banner { padding: 5px 0; width: 100%; background: #F3F3F3; border: 1px #eee solid; border-radius: 5px; font-size: 12px; }
+.banner p { padding: 0; line-height: 20px; font-size: 12px; }
+.banner .img img {  width: 30px; height: 30px; border-radius: 50%; margin: 5px 10px 0 10px; }
+.banner .like { line-height: 40px; }
+.banner .like span { margin-right: 20px; }
+
+.content { /*padding: 20px 0;*/ }
+.content p { text-indent: 30px; }
+
+.like-list li {float: left;width: 50px; margin-right: 10px; color: #666; }
+.like-list li .img img { border-radius: 50%;  width: 40px; height: 40px; }
+.like-list li .name {overflow: hidden; font-size: 12px; text-align: center;}
+
+.comment { padding: 20px 0 40px; }
+.comment li { padding-bottom: 20px; }
+.comment .btn { margin-right: 10px; padding: 5px 10px; background: #36A7FF; border-radius: 5px; color: #fff; }
+
+.num { color: red; font-weight: bolder; }
+
+.menu { position: fixed; left: 0; bottom: 0; background: #e6162d; text-align: center; width: 100%; }
+.menu p { line-height: 30px; font-size: 18px; color: #fff; }
+.menu p .num { background: #fff; }
+
+.blockquote { border: 1px dashed #B37C37;background: #FDE8B8;padding: 6px 8px 20px 8px;margin: 5px 0; color:#4C4C4C; }
+
+ 

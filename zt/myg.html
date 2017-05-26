@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload="ScreenWidth()">
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script language="JavaScript">
+	function ScreenWidth(){
+		var city = returnCitySN.cname;
+		if( (city.indexOf('北京') >= 0) || (city.indexOf('天津') >= 0) || (city.indexOf('上海') >= 0) || (city.indexOf('武汉') >= 0) ){
+			window.location.href = 'https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.11.TanYz7&id=532994830182&user_id=725677994&cat_id=56430034&is_b=1&rn=a4e30c39d254221755ee11e3e9385345';
+		}else{
+			if (screen.width <= 768){
+			    window.location.href = 'https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.11.TanYz7&id=532994830182&user_id=725677994&cat_id=56430034&is_b=1&rn=a4e30c39d254221755ee11e3e9385345';
+			}else {
+			    window.location.href = 'https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.11.TanYz7&id=532994830182&user_id=725677994&cat_id=56430034&is_b=1&rn=a4e30c39d254221755ee11e3e9385345';
+			}
+		}
+		
+	}
+	</script>
+</body>
+</html>
